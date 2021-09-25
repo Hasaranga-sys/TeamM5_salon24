@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddEmployee">
+
+    <EditText
+        android:id="@+id/updateempName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Employee Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/updateempAge"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/updateempCoatcat"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Employee Contact"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/updateempAddress"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Employee Address" />
+
+    <EditText
+        android:id="@+id/updateempTime"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Shift Time"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/updateempsalary"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Employee Salary"
+        android:inputType="number" />
+
+
+    <Button
+        android:id="@+id/updateempadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:text="Add Employee Details"
+        app:backgroundTint="@color/btn"
+        app:cornerRadius="15dp" />
+</LinearLayout>

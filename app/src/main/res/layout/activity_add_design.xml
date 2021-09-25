@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddDesign">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="214dp"
+        android:background="@drawable/ic_home_wave_2">
+
+        <View
+            android:id="@+id/add_hairdes_txt"
+            android:layout_width="183dp"
+            android:layout_height="195dp"
+            android:layout_gravity="center"
+            android:layout_margin="109dp"
+            android:background="@drawable/ahd_txt" />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/desid"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Design ID"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/desName"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Design Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/desPrice"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Design Price"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/desDescription"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="Design Description"
+        android:inputType="textPersonName" />
+
+
+    <Button
+        android:id="@+id/desadd"
+        android:layout_width="392dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Add Design Details"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/btn"
+        app:cornerRadius="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="193dp"
+        android:background="@drawable/ic_home_down">
+
+    </LinearLayout>
+
+</LinearLayout>

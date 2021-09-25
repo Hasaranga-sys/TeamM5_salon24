@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/ic_wave_3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ChooseActor">
+
+    <View
+        android:id="@+id/add_hairdes_txt"
+        android:layout_width="177dp"
+        android:layout_height="179dp"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="-160dp"
+        android:background="@drawable/salonlgwh" />
+
+    <Button
+        android:id="@+id/cuslog"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="Customer Login"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/btn"
+
+        app:cornerRadius="15dp" />
+
+    <Button
+        android:id="@+id/adminlog"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Admin Login"
+        android:textColor="@color/white"
+        app:backgroundTint="@android:color/holo_red_light"
+        app:cornerRadius="15dp" />
+
+</LinearLayout>

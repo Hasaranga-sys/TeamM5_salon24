@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/ic_wave_3"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AdminLogin">
+
+    <View
+        android:id="@+id/add_hairdes_txt"
+        android:layout_width="177dp"
+        android:layout_height="179dp"
+        android:layout_marginLeft="-10dp"
+        android:layout_marginTop="-150dp"
+        android:background="@drawable/salonlgwh" />
+
+    <EditText
+        android:id="@+id/Aemail"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="10dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/Apass"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_margin="10dp"
+        android:drawableLeft="@drawable/padlock"
+        android:drawablePadding="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/Alogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        app:backgroundTint="@color/btn"
+        app:cornerRadius="15dp"
+        android:text="Sign In"
+        android:textColor="#ffffff" />
+
+</LinearLayout>
