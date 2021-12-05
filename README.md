@@ -7,8 +7,7 @@
 ### Member 4 - IT20124526 - Dilshan.U.K.T(tharaka-99)
 ### Member 5 - IT20151188 - Dilshan.K.B.G.L(dilshanlahiru)
 
-
-#### Brief Description of Project
+##
 
 #### Technologies used - 
 language - Java,
